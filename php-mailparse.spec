@@ -4,10 +4,10 @@
 #
 Name     : php-mailparse
 Version  : 3.0.4
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net/get/mailparse-3.0.4.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.0.4.tgz
-Summary  : Extension for parsing and working with email messages (RFC822 and RFC2045)
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
 Requires: php-mailparse-lib = %{version}-%{release}
@@ -46,4 +46,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/mailparse.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/mailparse.so
