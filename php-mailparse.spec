@@ -4,7 +4,7 @@
 #
 Name     : php-mailparse
 Version  : 3.0.4
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net/get/mailparse-3.0.4.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.0.4.tgz
 Summary  : Extension for parsing and working with email messages (RFC822 and RFC2045)
