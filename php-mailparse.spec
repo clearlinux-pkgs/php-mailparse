@@ -4,7 +4,7 @@
 #
 Name     : php-mailparse
 Version  : 3.1.1
-Release  : 10
+Release  : 11
 URL      : https://pecl.php.net/get/mailparse-3.1.1.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.1.1.tgz
 Summary  : No detailed summary available
