@@ -4,7 +4,7 @@
 #
 Name     : php-mailparse
 Version  : 3.1.2
-Release  : 15
+Release  : 16
 URL      : https://pecl.php.net/get/mailparse-3.1.2.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.1.2.tgz
 Summary  : No detailed summary available
@@ -46,4 +46,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/mailparse.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/mailparse.so
