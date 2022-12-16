@@ -4,7 +4,7 @@
 #
 Name     : php-mailparse
 Version  : 3.1.4
-Release  : 33
+Release  : 34
 URL      : https://pecl.php.net/get/mailparse-3.1.4.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.1.4.tgz
 Summary  : No detailed summary available
@@ -49,7 +49,7 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-mailparse
-cp %{_builddir}/mailparse-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-mailparse/b5469c326673cd097cc5e081bf40b1d9c0577644 || :
+cp %{_builddir}/mailparse-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-mailparse/b5469c326673cd097cc5e081bf40b1d9c0577644
 %make_install
 
 
@@ -58,7 +58,7 @@ cp %{_builddir}/mailparse-%{version}/LICENSE %{buildroot}/usr/share/package-lice
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/mailparse.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/mailparse.so
 
 %files license
 %defattr(0644,root,root,0755)
