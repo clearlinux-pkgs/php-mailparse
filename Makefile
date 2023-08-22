@@ -1,5 +1,5 @@
 PKG_NAME := php-mailparse
-URL = https://pecl.php.net/get/mailparse-3.1.5.tgz
+URL = https://pecl.php.net/get/mailparse-3.1.6.tgz
 ARCHIVES = 
 
 include ../common/Makefile.common

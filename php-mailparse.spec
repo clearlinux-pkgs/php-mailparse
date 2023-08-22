@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-mailparse
-Version  : 3.1.5
-Release  : 48
-URL      : https://pecl.php.net/get/mailparse-3.1.5.tgz
-Source0  : https://pecl.php.net/get/mailparse-3.1.5.tgz
+Version  : 3.1.6
+Release  : 49
+URL      : https://pecl.php.net/get/mailparse-3.1.6.tgz
+Source0  : https://pecl.php.net/get/mailparse-3.1.6.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
@@ -40,10 +40,10 @@ license components for the php-mailparse package.
 
 
 %prep
-%setup -q -n mailparse-3.1.5
-cd %{_builddir}/mailparse-3.1.5
+%setup -q -n mailparse-3.1.6
+cd %{_builddir}/mailparse-3.1.6
 pushd ..
-cp -a mailparse-3.1.5 buildavx2
+cp -a mailparse-3.1.6 buildavx2
 popd
 
 %build
