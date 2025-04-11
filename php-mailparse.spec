@@ -7,7 +7,7 @@
 #
 Name     : php-mailparse
 Version  : 3.1.8
-Release  : 83
+Release  : 84
 URL      : https://pecl.php.net/get/mailparse-3.1.8.tgz
 Source0  : https://pecl.php.net/get/mailparse-3.1.8.tgz
 Summary  : No detailed summary available
